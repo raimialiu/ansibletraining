@@ -1,6 +1,6 @@
 ---
-hosts: localhost
-tasks:
+- hosts: localhost
+  tasks:
     - name: Debug Messgae
       debug: msg='ansbile is fun'
     - name: test connectivity
